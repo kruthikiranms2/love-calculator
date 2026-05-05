@@ -1,0 +1,5 @@
+listnum = input("enter numbers separated by commas:")
+num= listnum.split(",")
+tuple= tuple(num)
+print("list of numbers is:",num)
+print("tuple of numbers is:", tuple)
